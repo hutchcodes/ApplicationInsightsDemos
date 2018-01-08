@@ -39,7 +39,21 @@ namespace AppInsightsDemo.Controllers
 
             tc.TrackEvent("GetPrimes", new Dictionary<string, string> { { "primesLessThan", primesLessThan.ToString() } }, new Dictionary<string, double> { });
 
-            CheckIfErrorCondition();
+            CheckIfErrorCondition(); 
+
+            var primes = GetPrimes(primesLessThan);
+
+            return View("Index", primes);
+        }
+
+        [Route("primes")]
+        [Route("primes/{primesLessThan}")]
+        public ActionResult Primes(int primesLessThan = 100)
+        {
+            var tc = new TelemetryClient();
+            tc.TrackMetric("PrimesLessThan", primesLessThan);
+
+            tc.TrackEvent("GetPrimes", new Dictionary<string, string> { { "primesLessThan", primesLessThan.ToString() } }, new Dictionary<string, double> { });
 
             var primes = GetPrimes(primesLessThan);
 
