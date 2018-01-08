@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Poll";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<div class="row">
+    <div class="col-md-1">
+        <button onclick="appInsights.trackEvent('Developer');">Developer</button>
+    </div>
+    <div class="col-md-1">
+        <button onclick="appInsights.trackEvent('Operations');">Operations</button>
+    </div>
+    <div class="col-md-1">
+        <button onclick="appInsights.trackEvent('Management');">Management</button>
+    </div>
+</div>
+

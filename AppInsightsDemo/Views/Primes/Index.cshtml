@@ -1,0 +1,14 @@
+﻿@model IEnumerable<int>
+
+@{
+    ViewData["Title"] = "Slow View";
+}
+
+<h2>Primes</h2>
+
+@foreach (var item in Model)
+{
+    <div>
+        @Html.DisplayFor(modelItem => item)
+    </div>
+}
