@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="Load" Id="71e6444d-cd43-4b38-90a6-eeff071d906d" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.bcbac126-fd22-4e95-9c5b-626c6a5ebf84.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="4e92c5fe-a577-4349-8434-6e1c4ac39ddd" Version="1.1" Url="https://appinsightsdemo-hutchcodes.azurewebsites.net/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://appinsightsdemo-hutchcodes.azurewebsites.net/primes/slow" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="a9e78a6e-5583-49df-9292-aef12d6edb30" Version="1.1" Url="https://appinsightsdemo-hutchcodes.azurewebsites.net/Primes" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://appinsightsdemo-hutchcodes.azurewebsites.net/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="a9e78a6e-5583-49df-9292-aef12d6edb30" Version="1.1" Url="https://appinsightsdemo-hutchcodes.azurewebsites.net/Primes/200" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://appinsightsdemo-hutchcodes.azurewebsites.net/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="a9e78a6e-5583-49df-9292-aef12d6edb30" Version="1.1" Url="https://appinsightsdemo-hutchcodes.azurewebsites.net/Primes/500" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://appinsightsdemo-hutchcodes.azurewebsites.net/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="a5a3f757-f5e0-4f14-978a-b58845f81ac7" Version="1.1" Url="https://appinsightsdemo-hutchcodes.azurewebsites.net/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://appinsightsdemo-hutchcodes.azurewebsites.net/Primes" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="517046a3-5fb8-4cc9-b7e2-35da77d08430" Version="1.1" Url="https://appinsightsdemo-hutchcodes.azurewebsites.net/primes/slow" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://appinsightsdemo-hutchcodes.azurewebsites.net/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="9f1a98dd-1bcf-4a7a-90ab-9b1858512a8e" Version="1.1" Url="https://appinsightsdemo-hutchcodes.azurewebsites.net/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://appinsightsdemo-hutchcodes.azurewebsites.net/primes/slow" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="df7e12a9-6f3c-4477-b4db-c11e5c296f43" Version="1.1" Url="https://appinsightsdemo-hutchcodes.azurewebsites.net/primes/error" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://appinsightsdemo-hutchcodes.azurewebsites.net/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="bd39b664-6c2d-401b-874d-1c108841ec57" Version="1.1" Url="https://appinsightsdemo-hutchcodes.azurewebsites.net/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://appinsightsdemo-hutchcodes.azurewebsites.net/primes/error" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="e6245d69-7db4-4531-9a24-fa9f34c4d0c8" Version="1.1" Url="https://appinsightsdemo-hutchcodes.azurewebsites.net/Home/Events" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://appinsightsdemo-hutchcodes.azurewebsites.net/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="6214b064-5bd7-4e71-a9aa-2362769ef00f" Version="1.1" Url="https://appinsightsdemo-hutchcodes.azurewebsites.net/Home/Contact" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://appinsightsdemo-hutchcodes.azurewebsites.net/Home/Events" />
+      </Headers>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>
