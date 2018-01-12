@@ -93,6 +93,7 @@ namespace AppInsightsDemo.Controllers
             {
                 System.Threading.Thread.Sleep(5000);
             }
+            
         }
 
         private void CheckIfErrorCondition()
@@ -101,7 +102,8 @@ namespace AppInsightsDemo.Controllers
             var rnGesus = new Random();
             if (rnGesus.Next(100) < errorsPer100)
             {
-                  throw new InvalidOperationException("Some Random Error with a Useless Message");
+                var ex = new InvalidOperationException("Some Random Error with a Useless Message");
+                throw ex;
             }
         }
 

@@ -24,7 +24,7 @@ namespace AppInsightsDemo.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "I'm looking for a job, preferrable remote. If you know of something, please let me know.";
+            ViewData["Message"] = "";
 
             return View();
         }
