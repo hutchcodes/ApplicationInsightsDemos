@@ -12,7 +12,7 @@ namespace AppInsightsDemo.Controllers
     {
         public IActionResult Index()
         {
-            return iew();
+            return View();
         }
 
         public IActionResult Events()
